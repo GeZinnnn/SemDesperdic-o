@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #ffb48a;
+    color: #000000;
+}
+
+.container{
+    width: 100%;
+    padding: 20px;
+    background-color: #5d2417;
+    height: 80px;
+}
+
+a{
+    display: flex;
+    padding: 10px;
+    color: #5d2417;
+    height: 30px;
+  
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media screen and (max-width: 600px) {
+    .container{
+        height: 70px;
+    }
+}
