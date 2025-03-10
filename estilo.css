@@ -11,6 +11,9 @@ body{
 }
 
 .container{
+    align-items: center;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     padding: 20px;
     background-color: #5d2417;
@@ -18,17 +21,26 @@ body{
 }
 
 a{
+    text-decoration: none;
     display: flex;
     padding: 10px;
     color: #5d2417;
-    height: 30px;
-  
+    justify-content: center;
+
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
 }
 
 h1{
     display: flex;
     justify-content: center;
-    align-items: center;
 
 }
 
@@ -37,3 +49,22 @@ h1{
         height: 70px;
     }
 }
+
+img{
+    height: 600px;
+    width: 1220px;
+    border-radius: 30px;
+}
+
+.ImagemAlimento{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin-left: 30%;
+    margin-top: 2%;
+}
+
+.manual{
+    margin-left: 100px;
+}
+
